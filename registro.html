@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro</title>
+</head>
+
+<form action="registro/registro.html" method="get">
+  <div>
+    <label for="nombre">Nombre</label>
+    <input type="text" id="nombre" required placeholder="Ingrese el nombre">
+  </div>
+  <br>
+  <div>
+    <label for="apellidos">Apellidos</label>
+    <input type="text" id="apellidos" required placeholder="Ingrese los apellidos">
+  </div>
+  <br>
+  <div>
+    <span>Seleccione su genero</span>
+    <br>
+    <label for="hombre">
+      <input type="radio" id="hombre" value="hombre" name="genero">
+      Hombre
+    </label>
+    <label for="mujer">
+      <input type="radio" id="mujer" value="mujer" name="genero">
+      Mujer
+    </label>
+    <label for="otro">
+      <input type="radio" id="otro" value="otro" name="genero">
+      Otro
+    </label>
+  </div>
+  <br>
+  <div>
+    <label for="ciudad">Seleccione su ciudad
+      <select name="ciudad" id="ciudad" required>
+        <option value="bucaramanga">Bucaramanga</option>
+        <option value="bogota">Bogota</option>
+        <option value="cali">Cali</option>
+      </select>
+    </label>
+  </div>
+  <br>
+  <div>
+    <label for="usuario">Usuario</label>
+    <input type="text" placeholder="Ingrese su usuario">
+  </div>
+  <br>
+  <div>
+    <label for="password">Contraseña</label>
+    <input type="password" placeholder="Ingrese su contraseña">
+  </div>
+  <br>
+  <div>
+    <button type="submit">Registrarme</button>
+  </div>
+</form>
+
+<body>
+
+</body>
+
+</html>
