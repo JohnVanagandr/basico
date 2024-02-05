@@ -1,41 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login</title>
-</head>
-
-<body>
-
-  <div>
-    <form action="login/login.html" method="get">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
       <div>
         <label for="usuario">Usuario</label>
-        <input type="text" name="user" minlength="8" required placeholder="Ingrese su usuario">
+        <input
+          type="text"
+          name="usuario"
+          id="usuario"
+          placeholder="Ingrese su usuario"
+        />
       </div>
-      <br>
       <div>
-        <label for="password">Contraseña</label>
-        <input type="password" name="password" required placeholder="Ingrese su contraseña">
+        <label for="contrasena">Contraseña</label>
+        <input
+          type="password"
+          name="contrasena"
+          id="contrasena"
+          placeholder="Ingrese su contraseña"
+        />
       </div>
-      <br>
       <div>
         <label for="recuerdame">
           Recordar datos
-          <input type="checkbox" id="recuerdame">
+          <input type="checkbox" name="recuerdame" id="recuerdame" />
         </label>
       </div>
-      <br>
-      <div>
-        <button type="submit">Ingresar</button>
-      </div>
+      <button type="submit">Validar</button>
     </form>
-    <form action=""></form>
-    <form action=""></form>
-  </div>
-
-</body>
-
+  </body>
 </html>
