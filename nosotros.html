@@ -1,56 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <!-- Contenedor para el cabecero -->
-    <header>
-      <a href="#">
-        <img src="assets/logo.png" alt="logo" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/estilos.css">
+  <title>Nosotros</title>
+</head>
+
+<body>
+  <!-- Contenedor para el cabecero -->
+  <header class="header">
+    <div class="header__container">
+      <a href="index.html" class="header__logo">
+        <img src="assets/logo-blanco.png" alt="logo" />
       </a>
-      <nav>
-        <ul>
-          <li>
-            <a href="index.html">Inicio</a>
-          </li>
-          <li>
-            <a href="nosotros.html">Nosotros</a>
-          </li>
-          <li>
-            <a href="servicios.html">Servicios</a>
-          </li>
-          <li>
-            <a href="contacto.html">Contácto</a>
-          </li>
-        </ul>
-      </nav>
-      <nav>
-        <ul>
-          <li>
-            <a href="login.html"> Ingresar </a>
-          </li>
-          <li>
-            <a href="registro.html"> Registro </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <!-- Contenedor para la información  -->
-    <section>
-      <h1>Nosotros</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores maxime
-        beatae quos quae sunt dolorum sit odit sequi nihil officiis.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, ipsam
-        nemo explicabo voluptate earum quisquam reprehenderit temporibus
-        quibusdam quo voluptatem inventore recusandae dolorum pariatur ab dolor
-        minus deleniti. Et, iusto?
-      </p>
-    </section>
-  </body>
+      <div class="header__menu">
+        <nav>
+          <ul class="header__list">
+            <li class="header__item">
+              <a href="index.html" class="header__link">Inicio</a>
+            </li>
+            <li class="header__item">
+              <a href="nosotros.html" class="header__link header__link--active">Nosotros</a>
+            </li>
+            <li class="header__item">
+              <a href="servicios.html" class="header__link">Servicios</a>
+            </li>
+            <li class="header__item">
+              <a href="contacto.html" class="header__link">Contácto</a>
+            </li>
+          </ul>
+        </nav>
+        <nav>
+          <ul class="header__list">
+            <li class="header__item">
+              <a href="login.html" class="header__link"> Ingresar </a>
+            </li>
+            <li class="header__item">
+              <a href="registro.html" class="header__link"> Registro </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- Contenedor para la información  -->
+  <section>
+    <h1>Nosotros</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores maxime
+      beatae quos quae sunt dolorum sit odit sequi nihil officiis.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, ipsam
+      nemo explicabo voluptate earum quisquam reprehenderit temporibus
+      quibusdam quo voluptatem inventore recusandae dolorum pariatur ab dolor
+      minus deleniti. Et, iusto?
+    </p>
+  </section>
+</body>
+
 </html>
