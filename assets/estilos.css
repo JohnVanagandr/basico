@@ -1,0 +1,27 @@
+body{
+  background: #000;
+  color: #c2c2c2;
+  font-size: 14px;
+}
+li{
+  color: aqua;
+}
+
+.nombre{
+  background: #f2f2f2;
+}
+
+#logo{
+  width: 120px;
+}
+
+
+nav ul li a {
+  color: red;
+}
+
+nav ul li a:hover{
+  background: #c2c2c2;
+  display: block;
+  width: 200px;
+}
