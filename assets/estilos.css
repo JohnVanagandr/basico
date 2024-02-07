@@ -37,7 +37,7 @@ body {
 }
 
 .header__menu {
-  display: flex;
+  
 }
 
 .header__list {
@@ -50,11 +50,12 @@ body {
   float: left;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 22px;
+  margin-right: 6px;
 }
 
 .header__link {
   display: block;
-  padding: 20px;
+  padding: 12px;
   color: #f2f2f2;
   text-decoration: none;
 }
@@ -65,6 +66,18 @@ body {
 
 .header__link:hover {
   color: rgb(225, 175, 10);
+}
+
+.header__link--solid{
+  background: #f2f2f2;
+  border-radius: 12px;
+  color: #000;
+}
+.header__link--border{
+  border-color: #aaaaaa;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 12px;
 }
 
 .main {
