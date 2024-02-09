@@ -43,26 +43,24 @@ body {
   padding-bottom: 4px;
 }
 
-.header__menu {
-  
-}
+.header__nav {}
 
 .header__list {
+  display: flex;
+  gap: 2rem;
   list-style: none;
   overflow: hidden;
-  padding-left: 0;
 }
 
 .header__item {
-  float: left;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 22px;
   margin-right: 6px;
+  margin: 0;
 }
 
 .header__link {
   display: block;
-  padding: 12px;
   color: var(--color-white);
   text-decoration: none;
 }
@@ -75,19 +73,22 @@ body {
   color: var(--color-primary);
 }
 
-.header__link--solid{
+.header__link--solid {
   background: var(--color-white);
   border-radius: var(--border-radius);
   color: var(--color-black);
+  padding: 0.8rem;
 }
-.header__link--border{
+
+.header__link--border {
   border-color: var(--color-white);
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
+  padding: 0.8rem;
 }
 
-.main{
+.main {
   background-color: var(--color-white);
 }
 
