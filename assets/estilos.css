@@ -28,6 +28,7 @@ body {
 }
 
 .container {
+  width: 90%;
   max-width: var(--max-width);
   margin: 0 auto;
 }
@@ -134,7 +135,13 @@ body {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 900px) {
+
+
+  :root {
+    --height-nav: 80px;
+  }
+
   .header__open, .header__close {
     display: block;
     border: 0;
@@ -173,5 +180,39 @@ body {
   .header__list {
     flex-direction: column;
     align-items: end;
+  }
+
+  .hero {
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 40px 0;
+  }
+
+  .hero__main {
+    flex-direction: column;
+    padding: 40px 0;
+  }
+
+  .hero__picture {
+    order: -1;
+  }
+
+  .hero__img {
+    max-width: 380px;
+  }
+
+  .hero__texts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .hero__title {
+    font-size: 2.5rem;
+  }
+
+  .hero__paragraph {
+    font-size: 1rem;
   }
 }
