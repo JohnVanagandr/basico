@@ -1,0 +1,15 @@
+.bg-grey{
+  background-color: var(--colol-grey);
+}
+
+.section{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.container__cards{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 60px;
+  align-items: self-end;
+}

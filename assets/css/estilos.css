@@ -1,13 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
-
-:root {
-  --height-nav: 70px;
-  --max-width: 1200px;
-  --color-primary: rgb(225, 175, 10);
-  --color-white: #f2f2f2;
-  --color-black: #1c1c1c;
-  --border-radius: 12px;
-}
+@import url("root.css");
+@import url("helpers.css");
 
 * {
   margin: 0;
@@ -133,6 +126,49 @@ body {
   max-width: 450px;
   display: block;
   margin: 0 auto;
+}
+
+/**------------------------**/
+
+.title{
+  text-align: center;
+}
+
+.title__primary{  
+  font-size: 2rem;
+  color: var(--color-primary);
+}
+
+.title__paragraph{
+  padding-top: 6px;
+  font-size: 1.2rem;
+  color: var(--color-black);
+}
+
+.card{
+  background-color: var(--color-white);
+  padding: 1rem;
+  border: solid 1px #cfcfcf;
+  border-radius: 12px;
+  min-width: 280px;
+}
+
+.card__title{
+  text-align: center;
+  color: var(--color-primary);
+  padding-bottom: 4px;
+  font-size: 1.5rem;
+}
+
+.list{
+  list-style: none;
+}
+.list__item{
+  padding: 10px;
+  border-bottom: solid 0.5px #cfcfcf;
+}
+.list__item:last-child{
+border-bottom: none;
 }
 
 @media screen and (max-width: 900px) {

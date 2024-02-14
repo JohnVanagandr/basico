@@ -1,0 +1,9 @@
+:root {
+  --height-nav: 70px;
+  --max-width: 1200px;
+  --color-primary: rgb(225, 175, 10);
+  --color-white: #f2f2f2;
+  --color-black: #1c1c1c;
+  --colol-grey: #e8e8e8;
+  --border-radius: 12px;
+}
