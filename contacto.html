@@ -16,8 +16,14 @@
       <a href="index.html" class="header__logo">
         <img src="assets/logo-blanco.png" alt="logo" />
       </a>
-      <div class="header__menu">
-        <nav>
+      <button class="header__open" id="open">
+        <i class="bi bi-list"></i>
+      </button>
+      <div class="header__menu" id="menu">
+        <button class="header__close" id="close">
+          <i class="bi bi-x-lg"></i>
+        </button>
+        <nav class="header__nav">
           <ul class="header__list">
             <li class="header__item">
               <a href="index.html" class="header__link">Inicio</a>
@@ -29,17 +35,20 @@
               <a href="servicios.html" class="header__link">Servicios</a>
             </li>
             <li class="header__item">
+              <a href="blog.html" class="header__link">Blog</a>
+            </li>
+            <li class="header__item">
               <a href="contacto.html" class="header__link header__link--active">Contácto</a>
             </li>
           </ul>
         </nav>
-        <nav>
+        <nav class="header__nav">
           <ul class="header__list">
             <li class="header__item">
-              <a href="login.html" class="header__link"> Ingresar </a>
+              <a href="login.html" class="header__link header__link--border"> Ingresar </a>
             </li>
             <li class="header__item">
-              <a href="registro.html" class="header__link"> Registro </a>
+              <a href="registro.html" class="header__link header__link--solid"> Registro </a>
             </li>
           </ul>
         </nav>
